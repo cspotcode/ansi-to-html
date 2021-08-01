@@ -1,6 +1,6 @@
 {
   "name": "@cspotcode/ansi-to-html",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": "ansi-to-html",
   "files": [
     "/ansi-to-html"
