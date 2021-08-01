@@ -6,6 +6,8 @@ We use it to generate pretty reports of subsets of automated CI tasks.  Although
 visualizing build logs, sometimes it is helpful to upload the output of a single command separately as a build artifact
 for easier review.
 
+### Features
+
 There are other tools like this one.  This tool has a few features they may not have:
 
 * 277 color themes, so you do not need to specify an array of color values manually.
@@ -42,7 +44,9 @@ Render from stdin to stdout
   $ complex-command | ansi-to-html > output.html
 ```
 
-For example, [here is the output of `git status`](https://cspotcode.github.io/ansi-to-html/examples/git-status.html) while I was working on this project:
+### Examples
+
+[Here is the output of `git status`](https://cspotcode.github.io/ansi-to-html/examples/git-status.html) while I was working on this project:
 
 ```
 ❯ git -c color.status=always status | ansi-to-html > example-git-status.html
