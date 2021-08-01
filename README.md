@@ -1,6 +1,6 @@
 ## ansi-to-html
 
-CLI tool to convert ANSI colored text to an HTML file, with a few extra features to support me team's use-case.
+CLI tool to convert ANSI colored text to an HTML file, with a few extra features to support my team's use-case.
 
 We use it to generate pretty reports of subsets of automated CI tasks.  Although CI servers are good at recording and
 visualizing build logs, sometimes it is helpful to upload a subset of the logs as a build artifact for easier review.
