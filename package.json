@@ -5,6 +5,14 @@
   "files": [
     "/ansi-to-html"
   ],
+  "author": {
+    "name": "Andrew Bradley",
+    "email": "cspotcode@gmail.com"
+  },
+  "homepage": "https://github.com/cspotcode/ansi-to-html",
+  "bugs": {
+    "url": "https://github.com/cspotcode/ansi-to-html/issues"
+  },
   "devDependencies": {
     "@tsconfig/node12": "^1.0.9",
     "ansi_up": "^5.0.1",
