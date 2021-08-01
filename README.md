@@ -3,7 +3,8 @@
 CLI tool to convert ANSI colored text to an HTML file, with a few extra features to support my team's use-case.
 
 We use it to generate pretty reports of subsets of automated CI tasks.  Although CI servers are good at recording and
-visualizing build logs, sometimes it is helpful to upload a subset of the logs as a build artifact for easier review.
+visualizing build logs, sometimes it is helpful to upload the output of a single command separately as a build artifact
+for easier review.
 
 There are other tools like this one.  This tool has a few features they may not have:
 
