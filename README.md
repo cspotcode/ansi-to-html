@@ -49,5 +49,5 @@ Render from stdin to stdout
 [Here is the output of `git status`](https://cspotcode.github.io/ansi-to-html/examples/git-status.html) while I was working on this project:
 
 ```
-❯ git -c color.status=always status | ansi-to-html > example-git-status.html
+❯ git -c color.status=always status | ansi-to-html > examples/git-status.html
 ```
