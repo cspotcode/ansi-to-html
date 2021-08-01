@@ -11,7 +11,7 @@ There are other tools like this one.  This tool has a few features they may not 
 * 277 color themes, so you do not need to specify an array of color values manually.
 * "Open in new tab" link in the HTML, useful when CI systems show the HTML embedded in an iframe and you want to easily
 pop into a new tab.
-* `#L123`-style linking like Github.  Click any line, it goes into the URL hash, copy a link to it.
+* Link to a specific line in a log, `#L123`-style like Github.  Click any line, JS adds that line-number to the URL, you can copy a link to it.
 
 ### Usage
 
