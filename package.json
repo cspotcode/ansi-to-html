@@ -1,0 +1,18 @@
+{
+  "name": "@cspotcode/ansi-to-html",
+  "version": "0.0.1",
+  "bin": "ansi-to-html",
+  "files": [
+    "ansi-to-html"
+  ],
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.9",
+    "ansi_up": "^5.0.1",
+    "clipanion": "^3.0.1",
+    "get-stdin": "^7.0.0",
+    "outdent": "^0.8.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4",
+    "webpack-config-prefabs": "^0.0.5"
+  }
+}

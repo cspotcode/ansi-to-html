@@ -1,0 +1,108 @@
+
+        <html>
+            <head>
+                <style type="text/css">
+                body {
+                    margin: 0;
+                    padding: 0;
+                }
+                .new-tab-link-wrap {
+                    margin: 0;
+                    padding: 15px;
+                }
+                .output {
+                    margin: 0;
+                    padding: 15px;
+                    padding: 15px;
+                    font-family: monaco, "Courier New", Courier, monospace;
+                    /*line-height: 1.3;*/
+                    line-height: 20px;
+                    font-size: 14px;
+                }
+                .highlighted {
+                    background: rgba(255, 255, 255, 0.2);
+                }
+
+                
+        .DimmedMonokai .output {
+            background: #1f1f1f;
+        }
+        .DimmedMonokai .output code {
+            color: #b9bcba;
+            background-color: #1f1f1f;
+        }
+    
+            .DimmedMonokai .ansi-black-bg { background-color: #3a3d43; }
+            .DimmedMonokai .ansi-black-fg { color: #3a3d43; }
+        
+            .DimmedMonokai .ansi-red-bg { background-color: #be3f48; }
+            .DimmedMonokai .ansi-red-fg { color: #be3f48; }
+        
+            .DimmedMonokai .ansi-green-bg { background-color: #879a3b; }
+            .DimmedMonokai .ansi-green-fg { color: #879a3b; }
+        
+            .DimmedMonokai .ansi-yellow-bg { background-color: #c5a635; }
+            .DimmedMonokai .ansi-yellow-fg { color: #c5a635; }
+        
+            .DimmedMonokai .ansi-blue-bg { background-color: #4f76a1; }
+            .DimmedMonokai .ansi-blue-fg { color: #4f76a1; }
+        
+            .DimmedMonokai .ansi-purple-bg { background-color: #855c8d; }
+            .DimmedMonokai .ansi-purple-fg { color: #855c8d; }
+        
+            .DimmedMonokai .ansi-cyan-bg { background-color: #578fa4; }
+            .DimmedMonokai .ansi-cyan-fg { color: #578fa4; }
+        
+            .DimmedMonokai .ansi-white-bg { background-color: #b9bcba; }
+            .DimmedMonokai .ansi-white-fg { color: #b9bcba; }
+        
+            .DimmedMonokai .ansi-bright-black-bg { background-color: #888987; }
+            .DimmedMonokai .ansi-bright-black-fg { color: #888987; }
+        
+            .DimmedMonokai .ansi-bright-red-bg { background-color: #fb001f; }
+            .DimmedMonokai .ansi-bright-red-fg { color: #fb001f; }
+        
+            .DimmedMonokai .ansi-bright-green-bg { background-color: #0f722f; }
+            .DimmedMonokai .ansi-bright-green-fg { color: #0f722f; }
+        
+            .DimmedMonokai .ansi-bright-yellow-bg { background-color: #c47033; }
+            .DimmedMonokai .ansi-bright-yellow-fg { color: #c47033; }
+        
+            .DimmedMonokai .ansi-bright-blue-bg { background-color: #186de3; }
+            .DimmedMonokai .ansi-bright-blue-fg { color: #186de3; }
+        
+            .DimmedMonokai .ansi-bright-purple-bg { background-color: #fb0067; }
+            .DimmedMonokai .ansi-bright-purple-fg { color: #fb0067; }
+        
+            .DimmedMonokai .ansi-bright-cyan-bg { background-color: #2e706d; }
+            .DimmedMonokai .ansi-bright-cyan-fg { color: #2e706d; }
+        
+            .DimmedMonokai .ansi-bright-white-bg { background-color: #fdffb9; }
+            .DimmedMonokai .ansi-bright-white-fg { color: #fdffb9; }
+        
+                </style>
+                <script
+                    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+                    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+                    crossorigin="anonymous"></script>
+            </head>
+            <body class="DimmedMonokai">
+                
+                <pre class="output"><code><div class="line-wrapper" id="L1">On branch master</div><div class="line-wrapper" id="L2"></div><div class="line-wrapper" id="L3">No commits yet</div><div class="line-wrapper" id="L4"></div><div class="line-wrapper" id="L5">Changes to be committed:</div><div class="line-wrapper" id="L6">  (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)</div><div class="line-wrapper" id="L7">	<span class="ansi-green-fg">new file:   .gitignore</span></div><div class="line-wrapper" id="L8">	<span class="ansi-green-fg">new file:   build.sh</span></div><div class="line-wrapper" id="L9">	<span class="ansi-green-fg">new file:   cli.ts</span></div><div class="line-wrapper" id="L10">	<span class="ansi-green-fg">new file:   package.json</span></div><div class="line-wrapper" id="L11">	<span class="ansi-green-fg">new file:   themes.json</span></div><div class="line-wrapper" id="L12">	<span class="ansi-green-fg">new file:   tsconfig.json</span></div><div class="line-wrapper" id="L13">	<span class="ansi-green-fg">new file:   webpack.config.js</span></div><div class="line-wrapper" id="L14">	<span class="ansi-green-fg">new file:   yarn.lock</span></div><div class="line-wrapper" id="L15"></div><div class="line-wrapper" id="L16">Changes not staged for commit:</div><div class="line-wrapper" id="L17">  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)</div><div class="line-wrapper" id="L18">  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)</div><div class="line-wrapper" id="L19">	<span class="ansi-red-fg">modified:   package.json</span></div><div class="line-wrapper" id="L20">	<span class="ansi-red-fg">modified:   yarn.lock</span></div><div class="line-wrapper" id="L21"></div><div class="line-wrapper" id="L22">Untracked files:</div><div class="line-wrapper" id="L23">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</div><div class="line-wrapper" id="L24">	<span class="ansi-red-fg">README.md</span></div><div class="line-wrapper" id="L25">	<span class="ansi-red-fg">cli2.ts</span></div><div class="line-wrapper" id="L26">	<span class="ansi-red-fg">gh-pages/</span></div><div class="line-wrapper" id="L27">	<span class="ansi-red-fg">node_modules/</span></div><div class="line-wrapper" id="L28">	<span class="ansi-red-fg">output.html</span></div><div class="line-wrapper" id="L29"></div><div class="line-wrapper" id="L30"></div></code></pre>
+                <script type="text/javascript">
+                    highlightLinkedLine();
+                    $(document).on('click', '.line-wrapper', evt => {
+                        window.location.hash = evt.currentTarget.getAttribute('id');
+                        highlightLinkedLine();
+                    });
+                    function highlightLinkedLine() {
+                        const line = parseInt(window.location.hash.replace(/^#/, '').replace(/^L/, ''));
+                        if(line > 0) {
+                            $('.highlighted').removeClass('highlighted');
+                            $('#L' + line).addClass('highlighted');
+                        }
+                    }
+                </script>
+            </body>
+        </html>
+        
