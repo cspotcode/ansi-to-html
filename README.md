@@ -41,10 +41,8 @@ Render from stdin to stdout
   $ complex-command | ansi-to-html > output.html
 ```
 
-For example, here is the output of git status while I was working on this project:
+For example, [here is the output of `git status`](https://cspotcode.github.io/ansi-to-html/examples/git-status.html) while I was working on this project:
 
 ```
 ❯ git -c color.status=always status | ansi-to-html > example-git-status.html
 ```
-
-[HTML output](https://cspotcode.github.io/ansi-to-html/example-git-status.html)
