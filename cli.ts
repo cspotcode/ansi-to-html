@@ -2,14 +2,14 @@
 import AnsiUp from 'ansi_up';
 import {Command, Cli, Builtins, Usage, Option} from 'clipanion';
 import { writeFileSync, readFileSync } from 'fs';
-import * as assert from 'assert';
-import * as getStdin from 'get-stdin';
+import assert from 'assert';
+import getStdin from 'get-stdin';
 import {outdent} from 'outdent';
 
 const binaryName = 'ansi-to-html';
 
 // came from https://windowsterminalthemes.dev/
-import * as allThemesJson from './themes.json';
+import allThemesJson from './themes.json';
 const defaultThemeName = 'DimmedMonokai';
 
 function o(strings: TemplateStringsArray, ...values: Array<any>) {
